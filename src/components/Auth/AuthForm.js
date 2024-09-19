@@ -23,10 +23,10 @@ const AuthForm = () => {
     let url;
     if (isLogin) {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBIbNTYU0iRjY2StvrObVWKjSgg3LK5oUQ";
+        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=**********";
     } else {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBIbNTYU0iRjY2StvrObVWKjSgg3LK5oUQ";
+        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=***********";
     }
     let emailValue = emailRef.current.value;
     let passwordValue = passwordReff.current.value;
